@@ -2,9 +2,6 @@ from selenium import webdriver
 import os
 import booking.constants as const
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.keys import Keys
 from booking.booking_filtration import BookingFiltration
 from booking.booking_report import BookingReport
 from prettytable import PrettyTable
